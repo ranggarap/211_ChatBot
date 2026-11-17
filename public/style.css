@@ -1,0 +1,21 @@
+/* ===== Variable Warna & Font Modern ===== */
+:root {
+    --bg-body: #f1f5f9;
+    --card-bg: #ffffff;
+    --primary: #2563eb;
+    --primary-hover: #1d4ed8;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    --user-bubble-bg: #2563eb;
+    --user-bubble-text: #ffffff;
+    --bot-bubble-bg: #f1f5f9;
+    --bot-bubble-text: #0f172a;
+    --border-color: #e2e8f0;
+    --shadow-card: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.03);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
