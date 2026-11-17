@@ -117,3 +117,18 @@ chatForm.addEventListener("submit", async (event) => {
         }
       }
     }
+
+    messages.push({
+      role: "assistant",
+      content: botResponse,
+    });
+  } catch (error) {
+    console.error(error);
+    botContent.textContent = "Maaf, terjadi kesalahan: " + error.message;
+  } finally {
+    userInput.disabled = false;
+    button.disabled = false;
+    if (btnText) btnText.textContent = "Kirim";
+    userInput.focus();
+  }
+});
